@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="devicon:trello" clip-path="url(#clip0_0_55)">
+<path id="Vector" d="M2.34375 0H21.6562C22.9547 0 24 1.04531 24 2.34375V21.6562C24 22.9547 22.9547 24 21.6562 24H2.34375C1.04531 24 0 22.9547 0 21.6562V2.34375C0 1.04531 1.04531 0 2.34375 0Z" fill="url(#paint0_linear_0_55)"/>
+<path id="Vector_2" d="M14.685 3.12H19.755C20.3783 3.12 20.88 3.62175 20.88 4.245V12.495C20.88 13.1182 20.3783 13.62 19.755 13.62H14.685C14.0617 13.62 13.56 13.1182 13.56 12.495V4.245C13.56 3.62175 14.0617 3.12 14.685 3.12ZM4.245 3.12H9.315C9.93825 3.12 10.44 3.62175 10.44 4.245V18.495C10.44 19.1182 9.93825 19.62 9.315 19.62H4.245C3.62175 19.62 3.12 19.1182 3.12 18.495V4.245C3.12 3.62175 3.62175 3.12 4.245 3.12Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_55" x1="12" y1="0" x2="12" y2="24" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2684FF"/>
+<stop offset="1" stop-color="#0052CC"/>
+</linearGradient>
+<clipPath id="clip0_0_55">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

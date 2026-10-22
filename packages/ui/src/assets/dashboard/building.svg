@@ -1,0 +1,19 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="building" clip-path="url(#clip0_0_227)">
+<g id="Vector">
+</g>
+<path id="Vector_2" d="M2 14H14" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Vector_3" d="M6 5.33333H6.66667" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Vector_4" d="M6 8H6.66667" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Vector_5" d="M6 10.6667H6.66667" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Vector_6" d="M9.33333 5.33333H10" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Vector_7" d="M9.33333 8H10" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Vector_8" d="M9.33333 10.6667H10" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Vector_9" d="M3.33333 14V3.33333C3.33333 2.97971 3.47381 2.64057 3.72386 2.39052C3.97391 2.14048 4.31304 2 4.66667 2H11.3333C11.687 2 12.0261 2.14048 12.2761 2.39052C12.5262 2.64057 12.6667 2.97971 12.6667 3.33333V14" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+</g>
+<defs>
+<clipPath id="clip0_0_227">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

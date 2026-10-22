@@ -1,0 +1,26 @@
+{
+  "title": "People",
+  "users": [
+    {
+      "id": "usr_amaka",
+      "name": "Amaka Cole",
+      "email": "amaka.cole@palurn.ai",
+      "role": "Employee",
+      "status": "active"
+    },
+    {
+      "id": "usr_luis",
+      "name": "Luis Ortega",
+      "email": "luis.ortega@palurn.ai",
+      "role": "Employee",
+      "status": "active"
+    },
+    {
+      "id": "usr_priya",
+      "name": "Priya Shah",
+      "email": "priya.shah@palurn.ai",
+      "role": "Manager",
+      "status": "active"
+    }
+  ]
+}

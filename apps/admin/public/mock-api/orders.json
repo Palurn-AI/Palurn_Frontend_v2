@@ -1,0 +1,29 @@
+{
+  "title": "Orders",
+  "orders": [
+    {
+      "id": "ord_2201",
+      "reference": "NW-2201",
+      "customer": "Northwind Studio",
+      "status": "paid",
+      "total": "$4,800.00",
+      "placedAt": "2026-10-14T10:12:00.000Z"
+    },
+    {
+      "id": "ord_1042",
+      "reference": "WO-1042",
+      "customer": "Palurn Delivery",
+      "status": "pending",
+      "total": "$86.00",
+      "placedAt": "2026-10-16T14:20:00.000Z"
+    },
+    {
+      "id": "ord_881",
+      "reference": "PL-881",
+      "customer": "Brightline Labs",
+      "status": "fulfilled",
+      "total": "$2,100.00",
+      "placedAt": "2026-09-28T08:30:00.000Z"
+    }
+  ]
+}

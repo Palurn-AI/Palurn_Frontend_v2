@@ -1,0 +1,123 @@
+@import "@fontsource/archivo/400.css";
+@import "@fontsource/archivo/500.css";
+@import "@fontsource/archivo/600.css";
+@import "@fontsource/archivo/700.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/lato/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/700.css";
+@import "tailwindcss";
+@source "../";
+@source "../../api/src";
+
+@theme inline {
+  --font-sans: "Archivo", ui-sans-serif, system-ui, sans-serif;
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-input: var(--input);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive: var(--destructive);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #241328;
+  --card: #ffffff;
+  --card-foreground: #241328;
+  --popover: #ffffff;
+  --popover-foreground: #241328;
+  --primary: #ff541f;
+  --primary-foreground: #ffffff;
+  --secondary: #f4f5f7;
+  --secondary-foreground: #35383d;
+  --muted: #f4f5f7;
+  --muted-foreground: #35383d;
+  --accent: #ff541f;
+  --accent-foreground: #ffffff;
+  --destructive: #dc2626;
+  --border: #e2e4e9;
+  --input: #e2e4e9;
+  --ring: #ff541f;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #35383d;
+  --sidebar-primary: #ff541f;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #ff541f;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #e2e4e9;
+  --sidebar-ring: #ff541f;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+}
+
+@keyframes palurn-overlay-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes palurn-overlay-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes palurn-modal-in {
+  from { opacity: 0; transform: translateY(28px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes palurn-modal-out {
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to { opacity: 0; transform: translateY(16px) scale(0.98); }
+}
+
+.palurn-overlay-in { animation: palurn-overlay-in 280ms ease-out both; }
+.palurn-overlay-out { animation: palurn-overlay-out 180ms ease-in both; }
+.palurn-modal-in { animation: palurn-modal-in 340ms cubic-bezier(0.16, 1, 0.3, 1) both; }
+.palurn-modal-out { animation: palurn-modal-out 180ms ease-in both; }
+
+@property --nav-pill-top {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 0px;
+}
+
+@property --nav-pill-height {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 0px;
+}
+
+.nav-active-ink {
+  --item-top: 10000px;
+  --item-bottom: 10000px;
+  clip-path: inset(
+    max(0px, calc(var(--nav-pill-top) - var(--item-top)))
+    0
+    max(0px, calc(var(--item-bottom) - var(--nav-pill-top) - var(--nav-pill-height)))
+    0
+  );
+}

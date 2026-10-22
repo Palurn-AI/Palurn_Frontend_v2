@@ -1,0 +1,210 @@
+{
+  "profile": {
+    "name": "Praise Nna.",
+    "role": "Super Admin"
+  },
+  "searchPlaceholder": "Search anything here...",
+  "welcome": {
+    "title": "Welcome Back, Praise",
+    "subtitle": "17 New Tasks Created Today, Let’s Go!!!",
+    "primaryAction": "Create Tasks",
+    "secondaryAction": "Add Team Member"
+  },
+  "metrics": [
+    {
+      "id": "projects",
+      "icon": "building",
+      "value": "5468",
+      "label": "Active Projects",
+      "change": "+19.01%",
+      "tone": "up",
+      "valueSize": 24
+    },
+    {
+      "id": "employees",
+      "icon": "users",
+      "value": "4598",
+      "label": "Total Employees",
+      "change": "-12%",
+      "tone": "down",
+      "valueSize": 20
+    },
+    {
+      "id": "tasks",
+      "icon": "subtask",
+      "value": "3698",
+      "label": "Open Tasks",
+      "change": "+6%",
+      "tone": "up",
+      "valueSize": 20
+    },
+    {
+      "id": "rating",
+      "icon": "pie",
+      "value": "Good",
+      "label": "Performance Rating",
+      "change": "-16%",
+      "tone": "down",
+      "valueSize": 20
+    }
+  ],
+  "chart": {
+    "title": "Performance Metric",
+    "range": "Monthly",
+    "tooltipLabel": "Productivity Rate",
+    "tooltipValue": "78%",
+    "yTicks": ["100%", "80%", "60%", "40%", "20%", "0"],
+    "xTicks": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+  },
+  "meetings": {
+    "title": "Meetings Schedule",
+    "range": "Today",
+    "joinLabel": "Join",
+    "items": [
+      {
+        "id": "marketing",
+        "time": "10:25 AM",
+        "title": "Marketing Strategy",
+        "link": "meet.google.com/qco-sxoa-mmb",
+        "dot": "1"
+      },
+      {
+        "id": "design-1",
+        "time": "10:25 AM",
+        "title": "Design Review Hospital",
+        "link": "meet.google.com/qco-sxoa-mmb",
+        "dot": "2"
+      },
+      {
+        "id": "design-2",
+        "time": "10:25 AM",
+        "title": "Design Review Hospital",
+        "link": "meet.google.com/qco-sxoa-mmb",
+        "dot": "3"
+      },
+      {
+        "id": "design-3",
+        "time": "10:25 AM",
+        "title": "Design Review Hospital",
+        "link": "meet.google.com/qco-sxoa-mmb",
+        "dot": "4"
+      }
+    ]
+  },
+  "tasks": {
+    "title": "Tasks",
+    "range": "September",
+    "columns": {
+      "title": "Title",
+      "assignee": "Assignee",
+      "status": "Status",
+      "deadline": "Deadline",
+      "priority": "Priority"
+    },
+    "rows": [
+      {
+        "id": "office",
+        "title": "Office Management App",
+        "faces": ["1", "2", "3"],
+        "extra": null,
+        "status": "InProgress",
+        "statusTone": "progress",
+        "deadline": "12/09/2024",
+        "priority": "High",
+        "priorityTone": "high"
+      },
+      {
+        "id": "clinic",
+        "title": "Clinic Management ",
+        "faces": ["4", "5", "6"],
+        "extra": 3,
+        "status": "Review",
+        "statusTone": "review",
+        "deadline": "24/10/2024",
+        "priority": "Low",
+        "priorityTone": "low"
+      },
+      {
+        "id": "education",
+        "title": "Educational Platform",
+        "faces": ["7", "8", "9"],
+        "extra": null,
+        "status": "Review",
+        "statusTone": "review",
+        "deadline": "18/02/2024",
+        "priority": "Medium",
+        "priorityTone": "medium"
+      },
+      {
+        "id": "chat-1",
+        "title": " Chat & Call  Mobile Appp",
+        "faces": ["10", "11", "12"],
+        "extra": 3,
+        "status": "Review",
+        "statusTone": "review",
+        "deadline": "17/10/2024",
+        "priority": "Low",
+        "priorityTone": "low"
+      },
+      {
+        "id": "chat-2",
+        "title": " Chat & Call  Mobile Appp",
+        "faces": ["10", "11", "12"],
+        "extra": 3,
+        "status": "Review",
+        "statusTone": "review",
+        "deadline": "17/10/2024",
+        "priority": "Medium",
+        "priorityTone": "medium"
+      }
+    ]
+  },
+  "todos": {
+    "title": "My Task List",
+    "range": "Today",
+    "items": [
+      {
+        "id": "holidays",
+        "title": "Add Holidays",
+        "done": false,
+        "starred": true,
+        "highlighted": false
+      },
+      {
+        "id": "client",
+        "title": "Add Meeting  to Client",
+        "done": true,
+        "starred": true,
+        "highlighted": true
+      },
+      {
+        "id": "adrian",
+        "title": "Chat with Adrian",
+        "done": false,
+        "starred": false,
+        "highlighted": false
+      },
+      {
+        "id": "management",
+        "title": "Management Call",
+        "done": false,
+        "starred": false,
+        "highlighted": false
+      },
+      {
+        "id": "payroll",
+        "title": "Add Payroll ",
+        "done": false,
+        "starred": false,
+        "highlighted": false
+      },
+      {
+        "id": "policy",
+        "title": "Add Policy for Increment ",
+        "done": false,
+        "starred": true,
+        "highlighted": false
+      }
+    ]
+  }
+}

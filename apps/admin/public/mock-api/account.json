@@ -1,0 +1,28 @@
+{
+  "title": "Account",
+  "editLabel": "Edit profile",
+  "name": "Sam Okonkwo",
+  "email": "sam.okonkwo@palurn.ai",
+  "role": "Admin",
+  "organization": "Palurn",
+  "nav": [
+    { "id": "profile", "label": "My Profile" },
+    { "id": "password", "label": "Change password" },
+    { "id": "notification", "label": "Notification" },
+    { "id": "logout", "label": "Logout" }
+  ],
+  "personalTitle": "Personal Information",
+  "professionalTitle": "Professional Information",
+  "personal": [
+    { "label": "First Name", "value": "Sam" },
+    { "label": "Last Name", "value": "Okonkwo" },
+    { "label": "Email Address", "value": "sam.okonkwo@palurn.ai" },
+    { "label": "Phone Number", "value": "+11 3232 322 755" },
+    { "label": "Address", "value": "12 canasa estate, Lagos" },
+    { "label": "Country", "value": "Nigeria" }
+  ],
+  "professional": [
+    { "label": "Position", "value": "Admin" },
+    { "label": "Team", "value": "Operations" }
+  ]
+}

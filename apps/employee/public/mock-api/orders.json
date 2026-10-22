@@ -1,0 +1,21 @@
+{
+  "title": "Requests",
+  "orders": [
+    {
+      "id": "ord_1042",
+      "reference": "WO-1042",
+      "customer": "Facilities",
+      "status": "pending",
+      "total": "$86.00",
+      "placedAt": "2026-10-16T14:20:00.000Z"
+    },
+    {
+      "id": "ord_1038",
+      "reference": "WO-1038",
+      "customer": "IT",
+      "status": "fulfilled",
+      "total": "$240.00",
+      "placedAt": "2026-10-09T11:05:00.000Z"
+    }
+  ]
+}

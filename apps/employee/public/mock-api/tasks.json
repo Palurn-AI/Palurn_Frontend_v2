@@ -1,0 +1,44 @@
+{
+  "title": "Tasks",
+  "createLabel": "Create Task",
+  "listTitle": "Task List",
+  "listSubtitle": "Overview of all tasks",
+  "summary": "Showing 1 to 10 of 16 entries",
+  "page": 4,
+  "pages": [1, 2, 3, 4],
+  "lastPage": 15,
+  "detail": {
+    "backLabel": "Back",
+    "editLabel": "Edit Task",
+    "assignees": [
+      { "id": "lewis", "name": "Lewis" },
+      { "id": "leona", "name": "Leona" },
+      { "id": "pineiro", "name": "Pineiro" },
+      { "id": "moseley", "name": "Moseley" }
+    ],
+    "addAssigneeLabel": "Add New",
+    "descriptionTitle": "Description",
+    "description": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within. By integrating advanced technologies and optimizing existing workflows, the project seeks to improve patient care, enhance operational efficiency, and ensure compliance with regulatory standards.",
+    "filesTitle": "Files",
+    "addFileLabel": "Add New",
+    "files": [
+      { "id": "file_doc", "name": "Project_1.docx", "size": "7.6 MB", "addedAt": "15 May 2024, 6:53 PM", "owner": "lewis", "kind": "doc" },
+      { "id": "file_pdf", "name": "Proposal.pdf", "size": "12.6 MB", "addedAt": "15 May 2024, 6:53 PM", "owner": "leona", "kind": "pdf" },
+      { "id": "file_zip", "name": "Logo-Img.zip", "size": "6.2 MB", "addedAt": "15 May 2024, 6:53 PM", "owner": "pineiro", "kind": "zip" }
+    ]
+  },
+  "tasks": [
+    { "id": "tsk_1", "title": "Startup recurring liquidity", "emphasis": false, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 3, "kind": "recurring", "priority": "high", "status": "todo", "due": "2nd feb 2026", "tag": "ux_design", "selected": true },
+    { "id": "tsk_2", "title": "Design Review", "emphasis": false, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 0, "kind": "one_time", "priority": "medium", "status": "in_progress", "due": "3rd feb 2026", "tag": "frontend", "selected": true },
+    { "id": "tsk_3", "title": "ESG Training", "emphasis": false, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 3, "kind": "one_time", "priority": "low", "status": "review", "due": "3rd feb 2026", "tag": "backend", "selected": true },
+    { "id": "tsk_4", "title": "Startup recurring liquidity", "emphasis": false, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 0, "kind": "recurring", "priority": "high", "status": "done", "due": "3rd feb 2026", "tag": "qa", "selected": true },
+    { "id": "tsk_5", "title": "Design Review", "emphasis": false, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 3, "kind": "one_time", "priority": "medium", "status": "review", "due": "3rd feb 2026", "tag": "mobile", "selected": true },
+    { "id": "tsk_6", "title": "Design Review", "emphasis": false, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 0, "kind": "one_time", "priority": "low", "status": "done", "due": "3rd feb 2026", "tag": "frontend", "selected": true },
+    { "id": "tsk_7", "title": "Startup recurring liquidity", "emphasis": false, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 3, "kind": "one_time", "priority": "low", "status": "review", "due": "3rd feb 2026", "tag": "qa", "selected": false },
+    { "id": "tsk_8", "title": "Design Review", "emphasis": false, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 0, "kind": "recurring", "priority": "high", "status": "review", "due": "3rd feb 2026", "tag": "qa", "selected": false },
+    { "id": "tsk_9", "title": "Design Review", "emphasis": false, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 3, "kind": "recurring", "priority": "high", "status": "done", "due": "3rd feb 2026", "tag": "mobile", "selected": false },
+    { "id": "tsk_10", "title": "Design Review", "emphasis": false, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 0, "kind": "recurring", "priority": "medium", "status": "done", "due": "3rd feb 2026", "tag": "qa", "selected": false },
+    { "id": "tsk_11", "title": "Design Review", "emphasis": false, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 3, "kind": "one_time", "priority": "medium", "status": "review", "due": "3rd feb 2026", "tag": "backend", "selected": false },
+    { "id": "tsk_12", "title": "Bold text column", "emphasis": true, "assignees": ["lewis", "leona", "pineiro"], "extraAssignees": 0, "kind": "recurring", "priority": "low", "status": "done", "due": "3rd feb 2026", "tag": "backend", "selected": false }
+  ]
+}

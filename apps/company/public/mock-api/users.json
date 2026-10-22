@@ -1,0 +1,26 @@
+{
+  "title": "Members",
+  "users": [
+    {
+      "id": "usr_hana",
+      "name": "Hana Ito",
+      "email": "hana.ito@northwind.studio",
+      "role": "Owner",
+      "status": "active"
+    },
+    {
+      "id": "usr_jonah",
+      "name": "Jonah Adeyemi",
+      "email": "jonah.adeyemi@northwind.studio",
+      "role": "Finance",
+      "status": "active"
+    },
+    {
+      "id": "usr_maya",
+      "name": "Maya Chen",
+      "email": "maya.chen@northwind.studio",
+      "role": "Producer",
+      "status": "invited"
+    }
+  ]
+}

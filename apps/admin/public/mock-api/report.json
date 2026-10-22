@@ -1,0 +1,146 @@
+{
+  "title": "Report",
+  "exportLabel": "Export Report",
+  "rangeLabel": "This Week",
+  "ranges": ["This Week", "This Month", "This Year"],
+  "metrics": [
+    {
+      "id": "total",
+      "label": "Total Projects",
+      "value": "300",
+      "change": "+10.54%",
+      "direction": "up",
+      "tone": "pink",
+      "fill": 0.784
+    },
+    {
+      "id": "new",
+      "label": "New Projects",
+      "value": "30",
+      "change": "+15.74%",
+      "direction": "up",
+      "tone": "purple",
+      "fill": 0.573
+    },
+    {
+      "id": "completed",
+      "label": "Completed Projects",
+      "value": "250",
+      "change": "+12.84%",
+      "direction": "up",
+      "tone": "green",
+      "fill": 0.947
+    },
+    {
+      "id": "pending",
+      "label": "Pending Projects",
+      "value": "50",
+      "change": "-10.75%",
+      "direction": "down",
+      "tone": "red",
+      "fill": 0.189
+    }
+  ],
+  "attendance": {
+    "title": "Attendance",
+    "value": "98%",
+    "change": "12%",
+    "comparison": "vs last weeks",
+    "days": ["Mon", "Tue", "Wed", "Thur", "Fri"]
+  },
+  "tasks": {
+    "title": "Tasks Statistics",
+    "totalLabel": "Total Tasks",
+    "total": "124/165",
+    "stats": [
+      { "id": "ongoing", "label": "Ongoing", "value": "24%" },
+      { "id": "hold", "label": "On Hold", "value": "10%" },
+      { "id": "overdue", "label": "Overdue", "value": "16%" },
+      { "id": "completed", "label": "Completed", "value": "40%" }
+    ]
+  },
+  "departments": {
+    "title": "Department Performance",
+    "scale": ["0", "10", "20", "40", "60", "80", "100"],
+    "items": [
+      { "name": "UI/UX", "value": 59 },
+      { "name": "Development", "value": 95 },
+      { "name": "Management", "value": 58 },
+      { "name": "HR", "value": 23 },
+      { "name": "Testing", "value": 42 },
+      { "name": "Marketing", "value": 73 }
+    ],
+    "footnote": "No of Employees increased by",
+    "footnoteValue": "+20%",
+    "footnoteTrail": "from last Week"
+  },
+  "projectsTitle": "Projects",
+  "projects": [
+    {
+      "id": "pro-001",
+      "code": "PRO-001",
+      "name": "Office Management App",
+      "team": ["1", "2", "3"],
+      "extra": null,
+      "hours": "120/250 Hrs",
+      "hoursFill": 0.55,
+      "deadline": "12/09/2024",
+      "priority": "high"
+    },
+    {
+      "id": "pro-002",
+      "code": "PRO-002",
+      "name": "Clinic Management",
+      "team": ["4", "5", "6"],
+      "extra": "+3",
+      "hours": "240/300 Hrs",
+      "hoursFill": 0.55,
+      "deadline": "24/10/2024",
+      "priority": "low"
+    },
+    {
+      "id": "pro-003",
+      "code": "PRO-003",
+      "name": "Educational Platform",
+      "team": ["7", "8", "9"],
+      "extra": null,
+      "hours": "80/120 Hrs",
+      "hoursFill": 0.71,
+      "deadline": "18/02/2024",
+      "priority": "medium"
+    },
+    {
+      "id": "pro-004",
+      "code": "PRO-004",
+      "name": " Chat & Call  Mobile Appp",
+      "team": ["10", "11", "12"],
+      "extra": "+3",
+      "hours": "40/150 Hrs",
+      "hoursFill": 0.3,
+      "deadline": "17/10/2024",
+      "priority": "low"
+    },
+    {
+      "id": "pro-008",
+      "code": "PRO-008",
+      "name": " Chat & Call  Mobile Appp",
+      "team": ["10", "11", "12"],
+      "extra": "+3",
+      "hours": "100/300 Hrs",
+      "hoursFill": 0.36,
+      "deadline": "17/10/2024",
+      "priority": "medium"
+    }
+  ],
+  "page": 4,
+  "pages": [1, 2, 3, 4],
+  "lastPage": 15,
+  "performersTitle": "Top 5 Performers",
+  "performers": [
+    { "id": "semiat", "name": "Semiat Designer", "role": "UI/UX Designer", "score": "95%", "tone": "orange" },
+    { "id": "john", "name": "John Doe", "role": "Frontend Developer", "score": "85%", "tone": "green" },
+    { "id": "praise", "name": "Praise Nnamudi", "role": "Business Developer", "score": "70%", "tone": "purple" },
+    { "id": "joe", "name": "Joe Doe", "role": "Backend Developer", "score": "61%", "tone": "blue" },
+    { "id": "mark", "name": "Mark John", "role": "Sales Representative", "score": "58%", "tone": "navy" }
+  ]
+}

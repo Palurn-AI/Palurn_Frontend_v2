@@ -1,0 +1,79 @@
+{
+  "title": "Projects",
+  "createLabel": "Create Project",
+  "listTitle": "Project Grid",
+  "listSubtitle": "Overview of all Projects",
+  "form": {
+    "title": "New Project",
+    "saveLabel": "Save",
+    "projectLabel": "Project",
+    "projectName": "Hospital Administration",
+    "labelLabel": "Label",
+    "labels": ["design"],
+    "teamLabel": "Team",
+    "team": [
+      { "id": "kelan", "name": "Kelan Arm" },
+      { "id": "melly", "name": "Melly mile" }
+    ],
+    "leadLabel": "Team Lead",
+    "lead": { "id": "melly", "name": "Melly mile" },
+    "managerLabel": "Project Manager",
+    "manager": { "id": "manager", "name": "Melly mile" },
+    "deadlineLabel": "Deadline",
+    "deadline": "May 30 2024, 5:30 PM",
+    "descriptionLabel": "Description",
+    "description": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within. By integrating advanced technologies and optimizing existing workflows, the project seeks to improve patient care, enhance operational efficiency, and ensure compliance with regulatory standards.",
+    "filesLabel": "Files",
+    "fileName": "Project.docx",
+    "fileSize": "7.6 MB"
+  },
+  "detail": {
+    "backLabel": "Back to List",
+    "editLabel": "Edit Project",
+    "durationLabel": "Duration",
+    "team": [
+      { "id": "lewis", "name": "Lewis" },
+      { "id": "leona", "name": "Leona" },
+      { "id": "pineiro", "name": "Pineiro" },
+      { "id": "moseley", "name": "Moseley" }
+    ],
+    "leads": [
+      { "id": "ruth", "name": "Ruth" },
+      { "id": "meredith", "name": "Meredith" }
+    ],
+    "manager": { "id": "dwight", "name": "Dwight" },
+    "labels": [
+      { "text": "Admin Panel", "tone": "pink" },
+      { "text": "High Tech", "tone": "blue" }
+    ],
+    "descriptionTitle": "Description",
+    "description": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within. By integrating advanced technologies and optimizing existing workflows, the project seeks to improve patient care, enhance operational efficiency, and ensure compliance with regulatory standards.",
+    "tasksTitle": "Tasks",
+    "newTaskLabel": "New task",
+    "tasks": [
+      { "id": "pt_1", "title": "Patient appointment booking", "done": false, "starred": true, "status": "inprogress", "faces": 3 },
+      { "id": "pt_2", "title": "Appointment booking with payment gateway", "done": false, "starred": false, "status": "inprogress", "faces": 3 },
+      { "id": "pt_3", "title": "Patient and Doctor video conferencing", "done": true, "starred": false, "status": "completed", "faces": 3 },
+      { "id": "pt_4", "title": "Private chat module", "done": false, "starred": false, "status": "inprogress", "faces": 2 },
+      { "id": "pt_5", "title": "Go-Live and Post-Implementation Support", "done": true, "starred": false, "status": "completed", "faces": 3 }
+    ],
+    "filesTitle": "Files",
+    "addFileLabel": "Add New",
+    "files": [
+      { "id": "pf_doc", "name": "Project_1.docx", "size": "7.6 MB", "addedAt": "15 May 2024, 6:53 PM", "owner": "lewis", "kind": "doc" },
+      { "id": "pf_pdf", "name": "Proposal.pdf", "size": "12.6 MB", "addedAt": "15 May 2024, 6:53 PM", "owner": "leona", "kind": "pdf" },
+      { "id": "pf_zip", "name": "Logo-Img.zip", "size": "6.2 MB", "addedAt": "15 May 2024, 6:53 PM", "owner": "pineiro", "kind": "zip" }
+    ]
+  },
+  "projects": [
+    { "id": "prj_1", "name": "Video Calling App", "logo": "databricks", "tasks": 22, "completed": 15, "status": "inprogress", "duration": "3 Months", "deadline": "16 Jan 2025", "lead": "Praise", "progress": 23, "comments": 2, "subtasks": 5, "updated": "Aug 6" },
+    { "id": "prj_2", "name": "Hospital Administration", "logo": "outreach", "tasks": 8, "completed": 15, "status": "completed", "duration": "3 Months", "deadline": "31 July 2025", "lead": "Praise", "progress": 23, "comments": 2, "subtasks": 5, "updated": "Aug 6" },
+    { "id": "prj_3", "name": "Video Calling App", "logo": "databricks", "tasks": 22, "completed": 15, "status": "inprogress", "duration": "3 Months", "deadline": "16 Jan 2025", "lead": "Praise", "progress": 23, "comments": 2, "subtasks": 5, "updated": "Aug 6" },
+    { "id": "prj_4", "name": "Hospital Administration", "logo": "outreach", "tasks": 8, "completed": 15, "status": "completed", "duration": "3 Months", "deadline": "31 July 2025", "lead": "Praise", "progress": 23, "comments": 2, "subtasks": 5, "updated": "Aug 6" },
+    { "id": "prj_5", "name": "Video Calling App", "logo": "databricks", "tasks": 22, "completed": 15, "status": "inprogress", "duration": "3 Months", "deadline": "16 Jan 2025", "lead": "Praise", "progress": 23, "comments": 2, "subtasks": 5, "updated": "Aug 6" },
+    { "id": "prj_6", "name": "Hospital Administration", "logo": "outreach", "tasks": 8, "completed": 15, "status": "completed", "duration": "3 Months", "deadline": "31 July 2025", "lead": "Praise", "progress": 23, "comments": 2, "subtasks": 5, "updated": "Aug 6" },
+    { "id": "prj_7", "name": "Hospital Administration", "logo": "outreach", "tasks": 8, "completed": 15, "status": "completed", "duration": "3 Months", "deadline": "31 July 2025", "lead": "Praise", "progress": 23, "comments": 2, "subtasks": 5, "updated": "Aug 6" },
+    { "id": "prj_8", "name": "Hospital Administration", "logo": "outreach", "tasks": 8, "completed": 15, "status": "completed", "duration": "3 Months", "deadline": "31 July 2025", "lead": "Praise", "progress": 23, "comments": 2, "subtasks": 5, "updated": "Aug 6" },
+    { "id": "prj_9", "name": "Video Calling App", "logo": "databricks", "tasks": 22, "completed": 15, "status": "inprogress", "duration": "3 Months", "deadline": "16 Jan 2025", "lead": "Praise", "progress": 23, "comments": 2, "subtasks": 5, "updated": "Aug 6" }
+  ]
+}

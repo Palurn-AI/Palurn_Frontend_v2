@@ -1,0 +1,71 @@
+{
+  "title": "Settings",
+  "updateLabel": "Update Profile",
+  "nav": [
+    { "id": "company", "label": "Company Infomation" },
+    { "id": "subscription", "label": "Subscription" },
+    { "id": "calendar", "label": "Calendar Integration" },
+    { "id": "report", "label": "Report" }
+  ],
+  "company": {
+    "title": "Company Information",
+    "nameLabel": "Company Name",
+    "name": "Palurn AI",
+    "nameHint": "Your name may appear around GitHub where you contribute or are mentioned. You can remove it at any time.",
+    "emailLabel": "Email Address",
+    "email": "Palurnai@gmail.com",
+    "emailHintLead": "You have set your email address to private. To toggle email privacy, go to ",
+    "emailHintLink": "email settings",
+    "emailHintTrail": " and uncheck \"Keep my email address private.\"",
+    "timezoneLabel": "Time Zone",
+    "timezone": "(UTC-08:00) Pacific Time(US & Canada)",
+    "timezones": [
+      "(UTC-08:00) Pacific Time(US & Canada)",
+      "(UTC+00:00) Greenwich Mean Time",
+      "(UTC+01:00) West Africa Time"
+    ],
+    "timezoneHint": "Other users will see the time difference from their local time.",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Tell us a little bit about your Company",
+    "locationLabel": "Location",
+    "location": "Lagos, Nigeria"
+  },
+  "subscription": {
+    "title": "Subscription",
+    "overview": "Overview",
+    "cancelLabel": "Cancel Subscription",
+    "upgradeLabel": "Upgrade Plan",
+    "usersLabel": "Users",
+    "usersValue": "86 of 100 Used",
+    "remaining": "14 Users remaining until your plan requires update",
+    "activeTitle": "Active until Dec 9, 2026",
+    "activeDetail": "We will send you a notification upon Subscription expiration.",
+    "priceTitle": "$24.99 Per Month",
+    "priceDetail": "Extended Pro Package. Up to 100 Agents & 25 Projects.",
+    "alertTitle": "We need your attention!",
+    "alertLead": "Your payment was declined. To start using tools, please ",
+    "alertLink": "Add Payment Method",
+    "alertTrail": "."
+  },
+  "calendar": {
+    "title": "Calendar Integration",
+    "autoJoinTitle": "Auto-join Meetings",
+    "autoJoinDetail": "Automatically join all scheduled meetings in your linked calendars.",
+    "autoJoin": true,
+    "consentTitle": "Recording Consent Controls",
+    "consentDetail": "Transparency is key. We ensure all participants are aware of the AI assistant's presence and recording status. Choose your default preference:",
+    "options": [
+      { "id": "ask", "label": "Always ask for consent before recording.", "enabled": true },
+      { "id": "notify", "label": "Always record, but notify participants upon joining.", "enabled": false },
+      { "id": "approve", "label": "Only record meetings you explicitly approve.", "enabled": false }
+    ]
+  },
+  "report": {
+    "title": "Report",
+    "weeklyLabel": "Weekly Reports",
+    "enabled": true,
+    "frequency": "Weekly",
+    "frequencies": ["Daily", "Weekly", "Monthly"],
+    "hint": "Your name may appear around GitHub where you contribute or are mentioned. You can remove it at any time."
+  }
+}

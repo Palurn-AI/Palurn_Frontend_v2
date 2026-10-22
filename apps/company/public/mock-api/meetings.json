@@ -1,0 +1,243 @@
+{
+  "title": "Meetings",
+  "recordLabel": "Record Meeting",
+  "listTitle": "Meeting List",
+  "listSubtitle": "Summary of all meetings",
+  "summary": "Showing 1 to 10 of 16 entries",
+  "page": 4,
+  "pages": [1, 2, 3, 4],
+  "lastPage": 15,
+  "detail": {
+    "backLabel": "Meeting",
+    "link": "www.googlemeet.com/ght/ovf/yxs",
+    "owner": "Palurn AI",
+    "date": "Dec 16, 2025",
+    "time": "10:00 AM - 11:00 AM",
+    "duration": "1hr",
+    "attendees": [
+      { "name": "Lewis", "avatar": "lewis" },
+      { "name": "Leona", "avatar": "leona" },
+      { "name": "Pineiro", "avatar": "pineiro" },
+      { "name": "Moseley", "avatar": "moseley" }
+    ],
+    "moreLabel": "29 More",
+    "overviewTitle": "Overview",
+    "overview": [
+      "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within. By integrating advanced technologies and optimizing existing workflows, the project seeks to improve patient care, enhance operational efficiency, and ensure compliance with regulatory standards.",
+      "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within. By integrating advanced technologies and optimizing existing workflows, the project seeks to improve patient care, enhance operational efficiency, and ensure compliance with regulatory standards."
+    ],
+    "keyPointsTitle": "Key Points",
+    "keyPoints": [
+      "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within. By integrating advanced technologies and optimizing existing workflows, the project seeks to improve patient care, enhance operational efficiency, and ensure compliance with regulatory standards."
+    ],
+    "transcript": [
+      {
+        "name": "Andrew",
+        "time": "1:32",
+        "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within."
+      },
+      {
+        "name": "Andrew",
+        "time": "1:32",
+        "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within."
+      },
+      {
+        "name": "Andrew",
+        "time": "1:32",
+        "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within."
+      },
+      {
+        "name": "Andrew",
+        "time": "1:32",
+        "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within."
+      },
+      {
+        "name": "Andrew",
+        "time": "1:32",
+        "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within."
+      },
+      {
+        "name": "Andrew",
+        "time": "1:32",
+        "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within."
+      },
+      {
+        "name": "Andrew",
+        "time": "1:32",
+        "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within."
+      }
+    ],
+    "tasksTitle": "Tasks List",
+    "tasks": [
+      { "id": "task_1", "title": "Patient appointment booking", "starred": true, "done": false, "status": "completed" },
+      { "id": "task_2", "title": "Patient appointment booking", "starred": true, "done": false, "status": "completed" },
+      { "id": "task_3", "title": "Patient appointment booking", "starred": true, "done": false, "status": "completed" },
+      { "id": "task_4", "title": "Appointment booking with payment gateway", "starred": false, "done": false, "status": "inprogress" },
+      { "id": "task_5", "title": "Patient and Doctor video conferencing", "starred": false, "done": true, "status": "inprogress" },
+      { "id": "task_6", "title": "Appointment booking with payment gateway", "starred": false, "done": false, "status": "inprogress" },
+      { "id": "task_7", "title": "Appointment booking with payment gateway", "starred": false, "done": false, "status": "inprogress" },
+      { "id": "task_8", "title": "Patient and Doctor video conferencing", "starred": false, "done": true, "status": "inprogress" },
+      { "id": "task_9", "title": "Patient and Doctor video conferencing", "starred": false, "done": true, "status": "inprogress" },
+      { "id": "task_10", "title": "Private chat module", "starred": false, "done": true, "status": "completed" }
+    ],
+    "questionsTitle": "Question List",
+    "questions": [
+      { "name": "Andrew", "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within." },
+      { "name": "Andrew", "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within." },
+      { "name": "Andrew", "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within." },
+      { "name": "Andrew", "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within." },
+      { "name": "Andrew", "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within." },
+      { "name": "Andrew", "text": "The Enhanced Patient Management System (EPMS) project aims to modernize and streamline the patient management processes within." }
+    ],
+    "attendance": [
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" },
+      { "name": "Praise Nnamudi", "joined": "8:01am", "spent": "45Mins", "left": "9:00am" }
+    ]
+  },
+  "meetings": [
+    {
+      "id": "mtg_1",
+      "title": "Startup recurring liquidity",
+      "emphasis": false,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "done",
+      "date": "2nd feb 2026",
+      "selected": true
+    },
+    {
+      "id": "mtg_2",
+      "title": "Design Review",
+      "emphasis": false,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "done",
+      "date": "3rd feb 2026",
+      "selected": true
+    },
+    {
+      "id": "mtg_3",
+      "title": "ESG Training",
+      "emphasis": true,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "upcoming",
+      "date": "3rd feb 2026",
+      "selected": true
+    },
+    {
+      "id": "mtg_4",
+      "title": "Startup recurring liquidity",
+      "emphasis": false,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "done",
+      "date": "3rd feb 2026",
+      "selected": true
+    },
+    {
+      "id": "mtg_5",
+      "title": "Design Review",
+      "emphasis": false,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "upcoming",
+      "date": "3rd feb 2026",
+      "selected": true
+    },
+    {
+      "id": "mtg_6",
+      "title": "Design Review",
+      "emphasis": false,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "done",
+      "date": "3rd feb 2026",
+      "selected": true
+    },
+    {
+      "id": "mtg_7",
+      "title": "Startup recurring liquidity",
+      "emphasis": false,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "done",
+      "date": "3rd feb 2026",
+      "selected": false
+    },
+    {
+      "id": "mtg_8",
+      "title": "Design Review",
+      "emphasis": false,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "upcoming",
+      "date": "3rd feb 2026",
+      "selected": false
+    },
+    {
+      "id": "mtg_9",
+      "title": "Design Review",
+      "emphasis": false,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "done",
+      "date": "3rd feb 2026",
+      "selected": false
+    },
+    {
+      "id": "mtg_10",
+      "title": "Design Review",
+      "emphasis": false,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "done",
+      "date": "3rd feb 2026",
+      "selected": false
+    },
+    {
+      "id": "mtg_11",
+      "title": "Design Review",
+      "emphasis": false,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "upcoming",
+      "date": "3rd feb 2026",
+      "selected": false
+    },
+    {
+      "id": "mtg_12",
+      "title": "Bold text column",
+      "emphasis": true,
+      "source": "Google Meet",
+      "ownerInitials": "PA",
+      "ownerName": "Palurn",
+      "status": "done",
+      "date": "3rd feb 2026",
+      "selected": false
+    }
+  ]
+}

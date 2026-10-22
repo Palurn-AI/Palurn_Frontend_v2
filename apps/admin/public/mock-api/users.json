@@ -1,0 +1,33 @@
+{
+  "title": "Users",
+  "users": [
+    {
+      "id": "usr_hana",
+      "name": "Hana Ito",
+      "email": "hana.ito@northwind.studio",
+      "role": "Company owner",
+      "status": "active"
+    },
+    {
+      "id": "usr_amaka",
+      "name": "Amaka Cole",
+      "email": "amaka.cole@palurn.ai",
+      "role": "Employee",
+      "status": "active"
+    },
+    {
+      "id": "usr_sam",
+      "name": "Sam Okonkwo",
+      "email": "sam.okonkwo@palurn.ai",
+      "role": "Admin",
+      "status": "active"
+    },
+    {
+      "id": "usr_old",
+      "name": "Rae Bennett",
+      "email": "rae.bennett@example.com",
+      "role": "Company owner",
+      "status": "suspended"
+    }
+  ]
+}

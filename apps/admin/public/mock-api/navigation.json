@@ -1,0 +1,41 @@
+{
+  "brand": "PalurnAI",
+  "items": [
+    {
+      "id": "dashboard",
+      "label": "Dashboard"
+    },
+    {
+      "id": "meetings",
+      "label": "Meetings"
+    },
+    {
+      "id": "tasks",
+      "label": "Tasks"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "integration",
+      "label": "Integration"
+    },
+    {
+      "id": "report",
+      "label": "Report"
+    },
+    {
+      "id": "settings",
+      "label": "Settings"
+    },
+    {
+      "id": "account",
+      "label": "Account"
+    }
+  ],
+  "footer": {
+    "id": "logout",
+    "label": "Log out"
+  }
+}

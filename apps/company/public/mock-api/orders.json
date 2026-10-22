@@ -1,0 +1,29 @@
+{
+  "title": "Orders",
+  "orders": [
+    {
+      "id": "ord_2201",
+      "reference": "NW-2201",
+      "customer": "Harbor & Co",
+      "status": "paid",
+      "total": "$4,800.00",
+      "placedAt": "2026-10-14T10:12:00.000Z"
+    },
+    {
+      "id": "ord_2194",
+      "reference": "NW-2194",
+      "customer": "Lumen Health",
+      "status": "pending",
+      "total": "$1,250.00",
+      "placedAt": "2026-10-18T16:40:00.000Z"
+    },
+    {
+      "id": "ord_2188",
+      "reference": "NW-2188",
+      "customer": "Fieldnote",
+      "status": "cancelled",
+      "total": "$640.00",
+      "placedAt": "2026-10-02T09:00:00.000Z"
+    }
+  ]
+}

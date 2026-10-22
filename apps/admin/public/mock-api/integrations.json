@@ -1,0 +1,207 @@
+{
+  "title": "Integrations",
+  "listTitle": "Integration List",
+  "listSubtitle": "Connect and streamline your workflows with seamless integrations in Perlume.",
+  "summary": "Showing 1 to 10 of 16 entries",
+  "page": 4,
+  "pages": [1, 2, 3, 4],
+  "lastPage": 15,
+  "enablesTitle": "What this integration enables:",
+  "footnote": "You can manage or disable this integration at any time from your settings.",
+  "connectLabel": "Connect",
+  "cancelLabel": "Cancel",
+  "integrations": [
+    {
+      "id": "int_google",
+      "name": "Google",
+      "icon": "google",
+      "connected": true,
+      "description": "Enable Google authentication, analytics, and secure data synchronization for streamlined admin operations.",
+      "enables": [
+        "Sign in with Google authentication",
+        "Sync analytics into the admin workspace",
+        "Keep connected data secure and up to date"
+      ]
+    },
+    {
+      "id": "int_slack",
+      "name": "Slack",
+      "icon": "slack",
+      "connected": true,
+      "description": "Send real-time notification, alerts and updates to your slack channel",
+      "enables": [
+        "Send real-time notifications and alerts to Slack channels",
+        "Post updates related to tasks, activities, and team events",
+        "Keep your team informed without leaving Slack"
+      ]
+    },
+    {
+      "id": "int_drive",
+      "name": "Google Drive",
+      "icon": "drive",
+      "connected": false,
+      "description": "Store, access, and organize files securely using Google Drive integration",
+      "enables": [
+        "Store project files in Google Drive",
+        "Open and organize shared documents",
+        "Keep file access in sync with the workspace"
+      ]
+    },
+    {
+      "id": "int_docs",
+      "name": "Google Doc",
+      "icon": "docs",
+      "connected": false,
+      "description": "Create, edit, and collaborate on documents in real time with Google Docs.",
+      "enables": [
+        "Create documents from the workspace",
+        "Edit and collaborate in real time",
+        "Attach Docs to tasks and projects"
+      ]
+    },
+    {
+      "id": "int_notion",
+      "name": "Notion",
+      "icon": "notion",
+      "connected": true,
+      "description": "Organize, manage, and collaborate on documents, tasks, and workflows in Notion from a single workspace.",
+      "enables": [
+        "Open Notion pages from the workspace",
+        "Keep tasks and documents together",
+        "Share workflow updates with the team"
+      ]
+    },
+    {
+      "id": "int_meta",
+      "name": "Meta",
+      "icon": "meta",
+      "connected": false,
+      "description": "Access Meta data to monitor engagement, analyze performance, and manage social activities efficiently.",
+      "enables": [
+        "Monitor engagement from Meta",
+        "Review social performance",
+        "Manage social activities in one place"
+      ]
+    },
+    {
+      "id": "int_teams",
+      "name": "Microsoft Team",
+      "icon": "teams",
+      "connected": false,
+      "description": "Collaborate seamlessly, receive updates, and manage team communications in Microsoft Teams.",
+      "enables": [
+        "Receive workspace updates in Teams",
+        "Collaborate with the team in channels",
+        "Keep communications in one thread"
+      ]
+    },
+    {
+      "id": "int_gmail",
+      "name": "Gmail",
+      "icon": "gmail",
+      "connected": true,
+      "description": "Integrate Gmail to manage emails, alerts, and communications seamlessly from your dashboard.",
+      "enables": [
+        "Read alerts from Gmail",
+        "Send updates without leaving the dashboard",
+        "Keep communications attached to work"
+      ]
+    },
+    {
+      "id": "int_sheets",
+      "name": "Google Sheet",
+      "icon": "sheets",
+      "connected": true,
+      "description": "Sync, organize, and analyze your data in real time with Google Sheets.",
+      "enables": [
+        "Sync records into Google Sheets",
+        "Organize data in shared spreadsheets",
+        "Analyze updates in real time"
+      ]
+    },
+    {
+      "id": "int_salesforce",
+      "name": "Salesforce",
+      "icon": "salesforce",
+      "connected": true,
+      "description": "Integrate your sales system to monitor leads, manage deals, and boost performance seamlessly.",
+      "enables": [
+        "Monitor leads from Salesforce",
+        "Manage deals beside the rest of the work",
+        "Review sales performance in the dashboard"
+      ]
+    },
+    {
+      "id": "int_dropbox",
+      "name": "Drop Box",
+      "icon": "dropbox",
+      "connected": true,
+      "description": "Use Dropbox integration to store, share, and collaborate on files seamlessly in real time.",
+      "enables": [
+        "Store files in Dropbox",
+        "Share files with the team",
+        "Collaborate on the latest version"
+      ]
+    },
+    {
+      "id": "int_hubspot",
+      "name": "Hubspot",
+      "icon": "hubspot",
+      "connected": false,
+      "description": "Manage contacts, track leads, and analyze marketing data seamlessly with HubSpot integration.",
+      "enables": [
+        "Manage contacts from HubSpot",
+        "Track leads next to tasks",
+        "Review marketing data in the dashboard"
+      ]
+    },
+    {
+      "id": "int_amazon",
+      "name": "Amazon",
+      "icon": "amazon",
+      "connected": true,
+      "description": "Integrate Amazon to handle products, fulfill orders, and analyze performance from your dashboard.",
+      "enables": [
+        "Handle products from the dashboard",
+        "Follow order fulfillment",
+        "Review Amazon performance"
+      ]
+    },
+    {
+      "id": "int_trello",
+      "name": "Trello",
+      "icon": "trello",
+      "connected": true,
+      "description": "Organize tasks, manage projects, and track progress seamlessly with Trello integration",
+      "enables": [
+        "Organize cards from Trello",
+        "Manage projects beside the workspace",
+        "Track progress without switching tools"
+      ]
+    },
+    {
+      "id": "int_calendar",
+      "name": "Calender",
+      "icon": "calendar",
+      "connected": true,
+      "description": "Schedule events, manage appointments, and get reminders seamlessly with Calendar integration.",
+      "enables": [
+        "Schedule events from the workspace",
+        "Manage appointments in one calendar",
+        "Get reminders for upcoming work"
+      ]
+    },
+    {
+      "id": "int_chatgpt",
+      "name": "Chat Gpt",
+      "icon": "chatgpt",
+      "connected": true,
+      "description": "Integrate ChatGPT to draft text, answer queries, and enhance workflows directly from your dashboard.",
+      "enables": [
+        "Draft text from the dashboard",
+        "Answer questions in the current workflow",
+        "Speed up writing without leaving the page"
+      ]
+    }
+  ]
+}

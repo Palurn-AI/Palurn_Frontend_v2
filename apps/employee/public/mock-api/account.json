@@ -1,0 +1,28 @@
+{
+  "title": "Account",
+  "editLabel": "Edit profile",
+  "name": "Praise Nnamudi",
+  "email": "Praise@gmail.com",
+  "role": "UI/UX Designer",
+  "organization": "Palurn",
+  "nav": [
+    { "id": "profile", "label": "My Profile" },
+    { "id": "password", "label": "Change password" },
+    { "id": "notification", "label": "Notification" },
+    { "id": "logout", "label": "Logout" }
+  ],
+  "personalTitle": "Personal Information",
+  "professionalTitle": "Professional Information",
+  "personal": [
+    { "label": "First Name", "value": "Praise" },
+    { "label": "Last Name", "value": "Nnamudi" },
+    { "label": "Email Address", "value": "Praise@gmail.com" },
+    { "label": "Phone Number", "value": "+11 3232 322 755" },
+    { "label": "Address", "value": "12 canasa estate, Lagos" },
+    { "label": "Country", "value": "Nigeria" }
+  ],
+  "professional": [
+    { "label": "Position", "value": "Design Lead" },
+    { "label": "Team", "value": "Engineering" }
+  ]
+}
