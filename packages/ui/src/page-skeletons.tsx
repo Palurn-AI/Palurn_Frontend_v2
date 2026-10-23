@@ -65,24 +65,185 @@ function Pager() {
   );
 }
 
-function TableGrid({ columns, count, rows }: { columns: string; count: number; rows: number }) {
+type ColumnKind =
+  | "check"
+  | "title"
+  | "text"
+  | "email"
+  | "icon-text"
+  | "person"
+  | "avatar"
+  | "faces"
+  | "chip"
+  | "status"
+  | "pill"
+  | "dot-pill"
+  | "date"
+  | "menu"
+  | "progress"
+  | "code"
+  | "mini";
+
+const titleWidths = ["w-[62%]", "w-[84%]", "w-[48%]", "w-[72%]"];
+const textWidths = ["w-16", "w-[88px]", "w-14", "w-20"];
+const emailWidths = ["w-40", "w-[188px]", "w-36", "w-44"];
+const nameWidths = ["w-16", "w-20", "w-14", "w-[72px]"];
+
+function ColumnMark({ kind, header = false, row = 0 }: { kind: ColumnKind; header?: boolean; row?: number }) {
+  if (header) {
+    if (kind === "check") return <Bone className="size-5 rounded-[6px]" />;
+    if (kind === "menu") return null;
+    const width =
+      kind === "title"
+        ? "w-10"
+        : kind === "email"
+          ? "w-12"
+          : kind === "date"
+            ? "w-16"
+            : kind === "code"
+              ? "w-6"
+              : kind === "progress"
+                ? "w-12"
+                : "w-16";
+    return <Bone className={`h-3.5 ${width}`} />;
+  }
+
+  if (kind === "check") return <Bone className="size-5 rounded-[6px]" />;
+  if (kind === "menu") {
+    return (
+      <span className="flex flex-col gap-0.5">
+        <Bone className="size-1 rounded-full" />
+        <Bone className="size-1 rounded-full" />
+        <Bone className="size-1 rounded-full" />
+      </span>
+    );
+  }
+  if (kind === "title") return <Bone className={`h-4 max-w-[220px] ${titleWidths[row % titleWidths.length]}`} />;
+  if (kind === "text") return <Bone className={`h-4 ${textWidths[row % textWidths.length]}`} />;
+  if (kind === "email") return <Bone className={`h-4 ${emailWidths[row % emailWidths.length]}`} />;
+  if (kind === "code") return <Bone className="h-4 w-10" />;
+  if (kind === "date") return <Bone className="h-4 w-[88px]" />;
+  if (kind === "icon-text") {
+    return (
+      <span className="flex items-center gap-1">
+        <Bone className="size-4 rounded-[3px]" />
+        <Bone className={`h-4 ${textWidths[row % textWidths.length]}`} />
+      </span>
+    );
+  }
+  if (kind === "person" || kind === "avatar") {
+    return (
+      <span className="flex min-w-0 items-center gap-1.5">
+        <Bone className={`${kind === "avatar" ? "size-5" : "size-[26px]"} shrink-0 rounded-full`} />
+        <Bone className={`h-4 ${nameWidths[row % nameWidths.length]}`} />
+      </span>
+    );
+  }
+  if (kind === "faces") {
+    return (
+      <span className="flex items-center">
+        {Array.from({ length: 3 }, (_, index) => (
+          <Bone key={index} className={`size-6 rounded-full border border-white ${index > 0 ? "-ml-2.5" : ""}`} />
+        ))}
+      </span>
+    );
+  }
+  if (kind === "chip") {
+    return (
+      <span className="inline-flex h-[26px] w-[72px] items-center gap-[5px] rounded-[5px] bg-[#eceef2] px-1.5">
+        <span className="size-[5px] shrink-0 rounded-full bg-white" />
+        <Bone className="h-2.5 w-8 bg-[#e2e4e9]" />
+      </span>
+    );
+  }
+  if (kind === "status") {
+    return (
+      <span className="flex items-center gap-2.5">
+        <span className="inline-flex h-[26px] w-[82px] items-center gap-1 rounded-[5px] bg-[#eceef2] px-1">
+          <span className="size-[9px] shrink-0 rounded-full bg-white" />
+          <Bone className="h-2.5 w-10 bg-[#e2e4e9]" />
+        </span>
+        <Bone className="size-3 rounded-[2px]" />
+      </span>
+    );
+  }
+  if (kind === "pill") return <Bone className="h-[26px] w-[76px] rounded-[12px]" />;
+  if (kind === "dot-pill") {
+    return (
+      <span className="inline-flex h-[22px] w-[84px] items-center gap-1.5 rounded-[16px] bg-[#eceef2] pr-2 pl-1.5">
+        <span className="size-2 shrink-0 rounded-full bg-white" />
+        <Bone className="h-2.5 w-10 bg-[#e2e4e9]" />
+      </span>
+    );
+  }
+  if (kind === "mini") return <Bone className="h-5 w-[60px] rounded-[5px]" />;
+  return (
+    <span className="flex w-[86px] flex-col gap-1">
+      <Bone className="h-3.5 w-10" />
+      <span className="h-1 overflow-hidden rounded-[10px] bg-[#f8f9fa]">
+        <Bone className="h-full rounded-[10px]" style={{ width: `${40 + (row % 4) * 15}%` }} />
+      </span>
+    </span>
+  );
+}
+
+function DataTable({
+  columns,
+  kinds,
+  rows,
+  minWidth = "min-w-[920px]",
+  tone = "list",
+}: {
+  columns: string;
+  kinds: ColumnKind[];
+  rows: number;
+  minWidth?: string;
+  tone?: "list" | "card";
+}) {
+  const card = tone === "card";
   return (
     <div className="overflow-x-auto">
-      <div className={`grid min-w-[920px] ${columns}`}>
+      <div className={`grid ${minWidth} ${columns}`}>
         {Array.from({ length: rows + 1 }, (_, row) =>
-          Array.from({ length: count }, (_, column) => (
-            <div
-              key={`${row}-${column}`}
-              className={`flex h-14 items-center px-5 ${row === 0 ? "border-b border-[#eaecf0] bg-[#fcfcfd]" : "border-b border-[#f8f9fa]"}`}
-            >
-              <Bone className={`h-4 ${column === 0 ? "size-5 rounded-[6px]" : row === 0 ? "w-16" : "w-24"}`} />
-            </div>
-          )),
+          kinds.map((kind, column) => {
+            const centered = kind === "check" || kind === "menu";
+            const header = row === 0;
+            return (
+              <div
+                key={`${row}-${column}`}
+                className={`flex items-center border-b ${
+                  card
+                    ? `border-[#f8f9fa] ${header ? "bg-[#f8f9fa] px-5 py-1.5" : "h-14 px-5"}`
+                    : `border-[#eaecf0] ${header ? "h-[54px] bg-[#fcfcfd]" : "h-[54px]"} ${centered ? "justify-center" : "px-6"}`
+                } ${card && centered ? "justify-center" : ""}`}
+              >
+                <ColumnMark kind={kind} header={header} row={row} />
+              </div>
+            );
+          }),
         )}
       </div>
     </div>
   );
 }
+
+const meetingColumns =
+  "grid-cols-[66px_minmax(220px,2.22fr)_minmax(150px,1fr)_140px_minmax(110px,0.75fr)_minmax(130px,0.75fr)_72px]";
+const meetingKinds: ColumnKind[] = ["check", "title", "icon-text", "person", "dot-pill", "date", "menu"];
+
+const taskColumns =
+  "grid-cols-[66px_minmax(180px,2.12fr)_minmax(120px,1.22fr)_minmax(100px,1.22fr)_minmax(100px,1.22fr)_minmax(120px,1.22fr)_minmax(96px,1fr)_minmax(96px,1fr)_60px]";
+const taskKinds: ColumnKind[] = ["check", "title", "faces", "text", "chip", "status", "date", "pill", "menu"];
+
+const teamColumns =
+  "grid-cols-[66px_minmax(180px,1.35fr)_minmax(190px,1.4fr)_150px_160px_minmax(120px,0.9fr)_minmax(140px,1fr)_44px]";
+const teamKinds: ColumnKind[] = ["check", "avatar", "email", "pill", "text", "dot-pill", "date", "menu"];
+
+const dashboardTaskColumns = "grid-cols-[minmax(180px,1.8fr)_140px_168px_130px_120px]";
+const dashboardTaskKinds: ColumnKind[] = ["title", "faces", "status", "date", "mini"];
+
+const reportColumns = "grid-cols-[80px_minmax(160px,1.6fr)_120px_110px_130px_90px]";
+const reportKinds: ColumnKind[] = ["code", "title", "faces", "progress", "date", "mini"];
 
 function DashboardSkeleton() {
   return (
@@ -141,7 +302,7 @@ function DashboardSkeleton() {
               <Bone className="h-4 w-20" />
               <Bone className="h-8 w-24 rounded-[5px]" />
             </div>
-            <TableGrid columns="grid-cols-[1.8fr_140px_168px_130px_120px]" count={5} rows={5} />
+            <DataTable columns={dashboardTaskColumns} kinds={dashboardTaskKinds} rows={5} minWidth="min-w-[760px]" tone="card" />
           </section>
           <section className="flex flex-col gap-3 rounded-[5px] border border-[#f2f3f5] bg-white p-5">
             <div className="flex items-center justify-between">
@@ -168,7 +329,7 @@ function MeetingsSkeleton() {
       <PageHeading />
       <section className="mt-3 overflow-hidden rounded-[8px] border border-[#eaecf0] bg-white">
         <ListToolbar />
-        <TableGrid columns="grid-cols-[54px_1.6fr_140px_140px_120px_120px_48px]" count={7} rows={8} />
+        <DataTable columns={meetingColumns} kinds={meetingKinds} rows={8} />
       </section>
       <Pager />
     </Loading>
@@ -181,7 +342,7 @@ function TasksSkeleton() {
       <PageHeading />
       <section className="mt-3 overflow-hidden rounded-[8px] border border-[#eaecf0] bg-white">
         <ListToolbar />
-        <TableGrid columns="grid-cols-[54px_1.5fr_120px_100px_90px_100px_110px_90px_48px]" count={9} rows={8} />
+        <DataTable columns={taskColumns} kinds={taskKinds} rows={8} minWidth="min-w-[980px]" />
       </section>
       <Pager />
     </Loading>
@@ -194,7 +355,7 @@ function TeamSkeleton() {
       <PageHeading actions={2} />
       <section className="mt-3 overflow-hidden rounded-[8px] border border-[#eaecf0] bg-white">
         <ListToolbar />
-        <TableGrid columns="grid-cols-[54px_1.4fr_1.4fr_110px_130px_100px_120px_48px]" count={8} rows={8} />
+        <DataTable columns={teamColumns} kinds={teamKinds} rows={8} minWidth="min-w-[980px]" />
       </section>
       <Pager />
     </Loading>
@@ -343,7 +504,7 @@ function ReportSkeleton() {
       <div className="mt-4 grid grid-cols-1 items-start gap-4 xl:grid-cols-[minmax(0,758fr)_minmax(280px,364fr)]">
         <section className="overflow-hidden rounded-[5px] border border-[#e5e7eb] bg-white">
           <ChartHeader />
-          <TableGrid columns="grid-cols-[80px_1.4fr_1fr_90px_120px_100px]" count={6} rows={5} />
+          <DataTable columns={reportColumns} kinds={reportKinds} rows={5} minWidth="min-w-[758px]" tone="card" />
         </section>
         <section className="rounded-[5px] border border-[#e5e7eb] bg-white">
           <ChartHeader />
